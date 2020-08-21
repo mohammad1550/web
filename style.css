@@ -1,0 +1,53 @@
+﻿h1{
+	text-align:center;
+}
+#home-page:hover{
+background-color:white;
+}
+
+a{
+color:blue;
+margin:5px;
+float:right;
+text-decoration:none;
+}
+a:hover{
+background-color:white;
+border:red 3px solid;
+border-radius:20px;
+}
+h4{
+color:red;
+text-align:center;
+}
+#javad{
+color:rgb(220,215,0);
+border:blue 3px solid;
+text-align:center;
+background-color:red;
+}
+#slm {
+border: black solid 2px;
+width:400px;
+height:600px;
+display:inline-block;
+margin: auto;
+}
+#frg{
+border:solid black 2px;
+width:400px;
+height:600px;
+float:right;
+text-align:center;
+margin:0 auto;
+}
+body{
+width:100%;
+height:600px;
+}
+table{
+width:100%;
+}
+table,td{
+ border:2px solid blue;
+ border-collapse: collapse;
