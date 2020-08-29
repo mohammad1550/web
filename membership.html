@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>
+membership
+</title>
+</head>
+<style>
+#hello{
+text-align:center;
+}
+#none{
+border:black 2px solid;
+width:100%;
+height:25px;
+text-align:center;
+color:red;
+background-color:rgb(200,195,0);
+}
+a{
+color:blue;
+margin:5px;
+float:right;
+text-decoration:none;
+}
+a:hover{
+background-color:red;
+border:red 3px solid;
+border-radius:20px;
+}
+</style>
+<body>
+<a href="index.html">صفحه اصلی</a>
+<a href="https://www.google.com">بازگشت به گوگل</a>
+<div id="none">
+:جهت عضویت  ثبت نام کنید<br>
+<br>
+</div>
+<form id="hello">
+<br>
+  <input type="text" id="name" placeholder="نام"><br><br>
+  <input type="text" id="green" placeholder="نام خانوادگی" ><br><br>
+ <input type="text"  placeholder="ایمیل"><br><br>
+ <input type="text" placeholder="شماره تلفن اختیاری"><br><br>
+  <button id="fast">ثبت نام</button>
+</form> 
+<!--<audio controls="controls">
+<source src="101.mp3" type="audio/mp3">
+</audio>-->
+</body>
+<script>
+var dokme=document.getElementById('fast');
+dokme.addEventListener('click',start);
+function start(){
+var name=document.getElementById('name');
+var yellow=document.getElementById('green');
+alert('خوش آمدی  '+name.value+" "+yellow.value);
+
+}
+</script>
+</html>
+
+
