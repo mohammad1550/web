@@ -37,10 +37,11 @@ text-align:center;
 margin:510px
 }
 </style>
+
 </head>
 <body>
 <h2 id="live">پخش زنده ی بازی های امروز</h2>
-<h4>تاریخ امروز:11 اسفند 1399</h4>
+<h4>تاریخ امروز:<b id="time"></b></h4>
 
 <a href="https://dailyfootball.tv/57481/oh-leuven-vs-antwerp-live-stream-11-esfand-99/" id="porto"> پخش زنده بازی آنتورپ و اود هورلی</a><br><br>
 <h3>.این بازی درساعت 23:15 میباشد</h3>
@@ -78,4 +79,13 @@ margin:510px
 <br>-->
 <h1 id="veb">تمامی حقوق برای ویب محفوظ است</h1>
 </body>
+<script>
+
+let date = new Date().toLocaleDateString('fa-IR');
+//console.log(today);
+document.getElementById("time").innerHTML = date;
+
+
+</script>
+
 </html>
