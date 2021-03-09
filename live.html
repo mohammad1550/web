@@ -46,9 +46,16 @@ bolder:3px blok solid;
 #jam{
 margin:400px;
 }
+#demo{
+text-align:right;
+color:red;
+font-size:25px;
+}
 </style>
 </head>
 <body>
+
+<p id="demo"></p>
 
 <div><h2 id="live">پخش زنده ی بازی های امروز</h2></div>
 
@@ -117,6 +124,12 @@ margin:400px;
 </div>
 </body>
 <script>
+var myVar = setInterval(myTimer, 1000);
+
+function myTimer() {
+  var d = new Date();
+  document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+}
 
 let date = new Date().toLocaleDateString('fa-IR');
 //console.log(today);
