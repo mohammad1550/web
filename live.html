@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" style="display: block;" class="theme-green">
+<head>
+<!--_html_template_start_-->
+<title>پخش زنده فوتبال</title>
+<link rel="shortcut icon" href="top.jpg" title="پخش زنده فوتبال" />
+<link rel="stylesheet" href="live.css">
+<meta charset="UTF-8">
+<meta name="description" content="Live football broadcast site">
+<meta name="keywords" content="HTML,CSS,JavaScript">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!--Google, this is a live football site-->
+<meta name="author" content="John Doe">
+</head>
+<body>
+<p id="demo" title="ساعت"></p>
+
+<div><h2 id="live">پخش زنده ی بازی های امروز</h2></div>
+
+<div><h4 title="تاریخ امروز" style="color:blue;">تاریخ امروز:<b id="time" title="تاریخ امروز"></b> </h4></div>
+
+<div id="diva"><a href="https://footballi.net/match/83013/%D8%A8%D8%A7%D8%B2%DB%8C-%D9%85%D9%86%DA%86%D8%B3%D8%AA%D8%B1%D8%B3%DB%8C%D8%AA%DB%8C-%D9%BE%D8%A7%D8%B1%DB%8C-%D8%B3%D9%86-%DA%98%D8%B1%D9%85%D9%86" id="porto">پخش زنده ی بازی منچسترسیتی و پازیسن ژرمن</a><br><br></div>
+<div><h3>.این بازی درساعت 23:30 میباشد</h3></div>
+<br>
+<br>
+<!--
+<div><a href="https://dailyfootball.ir/64805/wolfsburg-vs-bayern-live-stream-28-farvardin-1400/" id="gaym" >پخش  زنده ی بازی پرسپولیس ایران و الوحده </a><br><br></div>
+<div><h3>.این بازی درساعت 18:00 میباشد</h3></div>
+<br>
+<br>
+<div><a href="https://dailyfootball.ir/64842/antwerp-vs-genk-live-stream-28-farvardin-1400/" id="fotbal">پخش زنده ی بازی آنتورپ و خنک</a><br><br></div>
+<div><h3>.این بازی درساعت 23:15 میباشد</h3></div>
+<br>
+<br>
+<a href="https://footballi.net/match/82763/%D8%A8%D8%A7%D8%B2%DB%8C-%DA%86%D9%84%D8%B3%DB%8C-%D9%85%D9%86%DA%86%D8%B3%D8%AA%D8%B1%D8%B3%DB%8C%D8%AA%DB%8C" id="ml">پخش زنده ی بازی منچسترسیتی و چلسی</a><br><br>
+<h3>.این بازی درساعت 21:00 میباشد</h3>
+<br>
+<br>
+<a href="https://footballi.net/match/82365/%D8%A8%D8%A7%D8%B2%DB%8C-%D8%A7%D9%84%D8%B1%DB%8C%D8%A7%D9%86-%D9%BE%D8%B1%D8%B3%D9%BE%D9%88%D9%84%DB%8C%D8%B3" id="jam">پخش زنده ی بازی پرسپولیس و الریان</a><br><br>
+<h3>.این بازی درساعت 21:30 میباشد</h3>
+<br>
+<br>
+<a href="https://dailyfootball.ir/64847/foolad-vs-al-wehdat-live-stream-28-farvardin-1400/" id="lag"> پخش زنده ی بازی فولاد و الوحدات</a><br><br>
+<h3>.این بازی درساعت 22:30 میباشد</h3>
+<br>
+<br>
+<a href="https://dailyfootball.ir/64828/tractor-vs-al-sharjah-live-stream-28-farvardin-1400/">پخش زنده ی بازی الشارجه و تراکتور</a><br><br>
+<h3>.این بازی درساعت 22:30 میباشد</h3>
+<br>
+<br>
+<a href="https://dailyfootball.ir/64821/al-wahda-vs-goa-live-stream-28-farvardin-1400/">پخش زنده ی بازی کوآ و الوحده</a>
+<h3>.این بازی درساعت 19:30 میباشد</h3>
+<br>
+<br>
+<a href="https://dailyfootball.ir/64837/al-nassr-vs-al-sadd-live-stream-28-farvardin-1400/">پخش زنده ی بازی النصر و السد</a><br><br>
+<h3>.این بازی درساعت 22:30 میباشد</h3>
+<br>
+<br>
+<!--
+<a href="">پخش زنده ی بازی </a><br><br>
+<h3>.این بازی در ساعت </h3>
+<br>
+<br>
+<a href="https://dailyfootball.ir/58808/brest-vs-psg-live-stream-16-esfand-99/">پخش زنده ی بازی پی اس جی و برست</a><br><br>
+<h3>.این بازی درساعت 23:40 میباشد</h3>
+<br>
+<br>
+<a href="https://dailyfootball.ir/58786/burnley-vs-arsenal-live-stream-16-esfand-99/">پخش زنده ی بازی آرسنال و برنلی</a><br><br>
+<h3>.این بازی درساعت 16:00 میباشد</h3>-->
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="divone">
+<h1 id="veb" class="n-lnw">تمامی حقوق برای ویب محفوظ است</h1>
+</div>
+</body>
+<script>
+
+
+var myVar = setInterval(myTimer, 1000);
+
+function myTimer() {
+  var d = new Date();
+  document.getElementById("demo").innerHTML = d.toLocaleTimeString();
+}
+
+let date = new Date().toLocaleDateString('fa-IR');
+//console.log(today);
+document.getElementById("time").innerHTML = date;
+
+
+</script>
+
+</html>
+</!---klo---#253>
